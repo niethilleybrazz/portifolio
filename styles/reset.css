@@ -5,11 +5,24 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 a,li,button{
     cursor: pointer;
 }
+h1,h2,h3{
+    font-family: "Lexend Deca", sans-serif;
+}
+p,a{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+body{
+    background-color: #1a1a1a;
+    color: #fafafa;
+}
 
+main{
+    margin: 150px;
+}
 section{
-    min-height: 70vh;
+    height: 70vh;
 }
