@@ -3,7 +3,6 @@
 
 :root{
 --fonte-texto: "Poppins", sans-serif;
---fonte-titulo:"Unbounded", sans-serif;
 --fonte-logo:"Libre Barcode 39", sans-serif;
 --branco:#fafafa;
 --preto:#1a1a1a;
@@ -11,82 +10,18 @@
 }
 
 header{
-    display: flex;
-    justify-content: space-between;
     padding: 20px;
-    align-items: center;
-    margin: 0 20px;
-    background-color: var(--preto);
+    margin: 30px;
 }
 nav{
     display: flex;
+    align-items: center;
 }
-.logo{
-    font-family: var(--fonte-logo);
-    font-size: 2em;
+.logo a{
+    font-family:var(--fonte-logo);
+    font-size: 2rem;
+    margin-right: 60px;
 }
 .nav-links-container{
     display: flex;
-}
-.nav-links-container li{
-    margin: 0 20px;
-    font-family: var(--fonte-texto);
-    font-weight: 600;
-}
-.nav-switch button{
-    display: flex;
-    border: 1px solid rgba(255, 255, 255, 0.139);
-}
-.home-text h1{
-    margin-top: 5px;
-    font-family: var(--fonte-titulo);
-    font-size: 7rem;
-    font-weight: 900;
-    line-height: 110px;
-    color: var(--principal);
-}
-.home-text p{
-    font-size: 22px;
-    margin-right:  320px;
-}
-.home-text p>span{
-    color: var(--principal);
-    font-weight: 600;
-}
-.home-button{
-    margin-top: 50px;
-}
-.home-button>button{
-    padding: 15px 60px;
-    border: 1px solid #ffffff35;
-    border-radius: 10px;
-    font-family: var(--fonte-texto);
-}
-.home-button>button:hover{
-    background-color: #ffffff35;
-    border: 1px solid #ffffff35;
-}
-
-.about-section{
-    display: flex;
-    align-items: center;
-}
-.about-img{
-    width: 1000px;
-    height: 500px;
-    background-color: #fafafa;
-    border-radius: 50px 0 50px 0;
-}
-.about-text{
-    margin: 0 0 0 70px;
-}
-.about-text>h2{
-    font-family: var(--fonte-titulo);
-    font-size: 4rem;
-    margin-bottom: 50px ;
-    color: var(--principal);
-    font-weight: 600;
-}
-.about-text>p{
-    font-size: 22px;
 }
