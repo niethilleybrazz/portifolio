@@ -12,6 +12,6 @@ body{
     background-color: #1a1a1a;
     color: #fafafa;
 }
-main{
-    margin: 130px;
+section{
+    min-height: 60vh;
 }
