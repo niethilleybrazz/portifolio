@@ -1,8 +1,11 @@
+import Navbar from "./components/Navbar"
+import ApresentatioSection from "./components/ApresentatioSection"
 
 function App() {
   return (
     <div>
-      <h1 className="background-color: var(--color-mint-500)">Ola Mundo</h1>
+      <Navbar/>
+      <ApresentatioSection/>
     </div>
   )
 }
