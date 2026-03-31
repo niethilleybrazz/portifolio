@@ -1,11 +1,11 @@
-import Navbar from "./components/Navbar"
-import ApresentatioSection from "./components/ApresentatioSection"
+import Header from "./components/Header"
+import Hero from "./components/Hero"
 
 function App() {
   return (
     <div>
-      <Navbar/>
-      <ApresentatioSection/>
+      <Header/>
+      <Hero/>
     </div>
   )
 }
