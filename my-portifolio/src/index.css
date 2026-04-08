@@ -1,22 +1,34 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 @theme {
-  --color-main-bg : #171717;
-  --color-secondary-bg: #1C1C1C;
-  --color-font: #FCFCFC;
-  --color-borders : #FFFFFF20;
-  --color-purple : #934BFF;
-  --color-blue :#0081C7;
-  --font-main : 'Poppins';
-  --font-others : 'Space Mono';
-  --color-gradient: linear-gradient(to right, #934BFF, #0081C7);
+  --color-main-bg: #141414;
+  --color-secondary-bg: #1c1c1c;
+  --color-font: #fcfcfc;
+  --color-borders: #ffffff20;
+  --color-purple: #934bff;
+  --color-blue: #0081c7;
+  --font-main: "Poppins";
+  --font-others: "Space Mono";
+  --color-gradient: linear-gradient(to right, #934bff, #0081c7);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 1s ease-out forwards;
 }
 
 body {
-  @apply bg-main-bg
-  
+  @apply bg-main-bg;
 }
-
