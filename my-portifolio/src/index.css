@@ -1,17 +1,18 @@
 @import "tailwindcss";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
 @theme {
-  --color-main-bg: #1d1d1d;
+  --color-main-bg: #141414;
   --color-secondary-bg: #1c1c1c;
   --color-font: #fcfcfc;
   --color-borders: #ffffff6c;
   --color-purple: #934bff;
   --color-blue: #0081c7;
   --font-main: "Poppins";
-  --font-others: "Space Mono";
+  --font-others: "Chivo Mono";
   --color-gradient: linear-gradient(to right, #934BFF, #0081C7);
+  --animate-scroll-carousel: scroll-carousel 20s linear infinite;
 }
 
 @keyframes fadeIn {
@@ -32,3 +33,16 @@
 body {
   @apply bg-main-bg;
 }
+
+.carousel-item{
+  @apply flex flex-none items-center gap-1 text-font font-main
+}
+
+@keyframes scroll-carousel {
+    0% {
+      transform: translate(0);
+    }
+    100% {
+      transform: translate(-50%);
+    }
+  }
