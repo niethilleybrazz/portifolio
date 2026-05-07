@@ -6,7 +6,8 @@
   --color-main-bg: #141414;
   --color-secondary-bg: #1c1c1c;
   --color-font: #fcfcfc;
-  --color-borders: #ffffff6c;
+  --color-font-secondary: #fcfcfca0;
+  --color-borders: #ffffff1e;
   --color-purple: #934bff;
   --color-blue: #0081c7;
   --font-main: "Poppins";
@@ -36,6 +37,10 @@ body {
 
 .carousel-item{
   @apply flex flex-none items-center gap-1 text-font font-main
+}
+
+.padding-body{
+  @apply pt-2 pb-3 pr-10 pl-10
 }
 
 @keyframes scroll-carousel {

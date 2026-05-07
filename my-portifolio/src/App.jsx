@@ -1,12 +1,13 @@
 import Header from "./components/Header"
 import Hero from "./components/Hero"
 import AboutSection from "./components/AboutSection"
+import Projects from "./components/Projects"
 import DividerCarousel from "./components/DividerCarousel"
 import { BGPattern } from "./components/ui/bg-pattern"
 
 function App() {
   return (
-    <div className="pt-2 pb-3 pr-10 pl-10">
+    <div className="padding-body">
       <BGPattern 
         variant="dots" 
         mask="fade-center" 
@@ -17,7 +18,7 @@ function App() {
       <Header/>
       <Hero/>
       <DividerCarousel/>
-      <AboutSection/>
+      <Projects/>
     </div>
   )
 }
