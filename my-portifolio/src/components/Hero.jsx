@@ -16,11 +16,11 @@ const Hero = () => {
               Desenvolvedora full-stack
             </h1>
             <p className="flex items-center text-font gap-1 font-medium font-main mt-2"><GrLocation /> Uberlândia - MG</p>
-            <h2 className="text-s text-borders font-others relative mt-15">
+            <h2 className="text-s text-font-secondary font-others relative mt-15">
               Movida a café e apaixonada por tecnologia, desenvolvo aplicações web focadas em entregar experiências fluidas e soluções eficientes.
             </h2>
             <a href="">
-              <button className="mt-15 bg-secondary-bg py-3 px-20 text-font font-main border-2 rounded-xl cursor-pointer">Vamos conversar</button>
+              <button className="mt-30 py-2 px-20 text-font-secondary font-main border-2 rounded-xl cursor-pointer border-borders hover:text-font hover:border-font">Vamos conversar</button>
             </a>
           </div>
         </div>

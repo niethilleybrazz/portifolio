@@ -10,7 +10,7 @@ const ProjectCard = ({image, category, title, description}) => {
         <h3 className='font-main text-font my-2 font-medium'>
             {title}
         </h3>
-        <p className="font-others text-font text-xs">
+        <p className="font-others text-font-secondary text-xs">
             {description}
         </p>
     </div>
