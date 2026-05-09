@@ -1,6 +1,6 @@
-import { FaGithub } from "react-icons/fa";
-import { FaLinkedinIn } from "react-icons/fa";
-import { MdOutlineMailOutline } from "react-icons/md";
+import { BiLogoGithub } from "react-icons/bi";
+import { BiLogoLinkedin } from "react-icons/bi";
+import { BiLogoGmail } from "react-icons/bi";
 
 const Header = () => {
   return (
@@ -13,9 +13,9 @@ const Header = () => {
             <li><a href="#" className="">Contato</a></li>
           </ul>
           <ul className="flex gap-3 items-center">
-              <li><a href=""><FaGithub className="text-font size-5 cursor-pointer hover:scale-110 transition-transform" /></a></li>
-              <li><a href=""><FaLinkedinIn className="text-font size-5 cursor-pointer hover:scale-110 transition-transform" /></a></li>
-              <li><a href=""><MdOutlineMailOutline className="text-font size-5 cursor-pointer hover:scale-110 transition-transform" /></a></li>
+              <li><a href=""><BiLogoGithub className="text-font size-5 cursor-pointer hover:scale-110 transition-transform" /></a></li>
+              <li><a href=""><BiLogoLinkedin  className="text-font size-5 cursor-pointer hover:scale-110 transition-transform" /></a></li>
+              <li><a href=""><BiLogoGmail className="text-font size-5 cursor-pointer hover:scale-110 transition-transform" /></a></li>
           </ul>
       </div>
     </div>

@@ -4,7 +4,7 @@ import ProjectCard from './ui/ProjectCard';
 
 const Projects = () => {
     const projectsData= [
-        { id: 1, category: "E-comerce", title: "Loja de Roupas", description: "Lorem ipsum dolor sit amet...", image: "url1.jpg"},
+        { id: 1, category: "E-comerce", title: "Loja de Roupas", description: "Lorem ipsum dolor sit amet...Lorem ipsum dolor sit amet...Lorem ipsum dolor sit amet...Lorem ipsum dolor sit amet...Lorem ipsum dolor sit amet...", image: "url1.jpg"},
         { id: 2, category: "E-commerce", title: "App Delivery", description: "Lorem ipsum dolor sit amet...", image: "url2.jpg" },
         { id: 3, category: "E-commerce", title: "SaaS Dashboard", description: "Lorem ipsum dolor sit amet...", image: "url3.jpg" }
     ]

@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import AboutSection from "./components/AboutSection";
 import Projects from "./components/Projects";
 import DividerCarousel from "./components/ui/DividerCarousel";
+import Contact from "./components/Contact";
 import { BGPattern } from "./components/ui/bg-pattern";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Hero />
       <Projects />
       <AboutSection/>
+      <Contact/>
     </div>
   );
 }
