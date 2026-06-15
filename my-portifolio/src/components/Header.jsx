@@ -17,9 +17,9 @@ const Header = () => {
         </div>
 
         <ul className="hidden md:flex gap-6 font-others">
-          <li><a href="#" className="hover:text-purple transition-colors">Projetos</a></li>
-          <li><a href="#" className="hover:text-purple transition-colors">Sobre</a></li>
-          <li><a href="#" className="hover:text-purple transition-colors">Contato</a></li>
+          <li><a href="#" className="hover:text-font-secondary transition-colors">Projetos</a></li>
+          <li><a href="#" className="hover:text-font-secondary transition-colors">Sobre</a></li>
+          <li><a href="#" className="hover:text-font-secondary transition-colors">Contato</a></li>
         </ul>
 
         <ul className="hidden sm:flex gap-3 items-center">

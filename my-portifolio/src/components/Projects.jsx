@@ -15,7 +15,7 @@ const Projects = () => {
             <h3 className="font-main text-font text-xl font-medium">Alguns projetos</h3>
             <a href="" className="flex items-center gap-3 text-font font-others">Ver todos <TiArrowForwardOutline className='font-medium'/></a>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-[85%] min-h-[70%]">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-[85%] min-h-[70%] bg-main-bg border-borders">
             {
                 projectsData.map((item)=>(
                     <ProjectCard 

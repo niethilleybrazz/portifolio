@@ -3,7 +3,7 @@ import DividerCarousel from "./ui/DividerCarousel";
 
 const AboutSection = () => {
   return (
-    <div className="py-12 px-6 md:px-12 lg:px-24 max-w-330 mx-auto mb-30 mt-30">
+    <div className="py-12 px-6 md:px-12 lg:px-24 max-w-330 mx-auto mb-10 mt-30">
 
       <div className="">
         <h3 className="font-main text-xl text-font font-medium">Sobre mim</h3>

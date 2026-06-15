@@ -1,7 +1,7 @@
 import React from "react";
 import { BiLogoGmail } from "react-icons/bi";
 import { BiLogoLinkedin } from "react-icons/bi";
-import ContactForm from "./ui/ContactForm";
+import photograph from "../assets/photograph.png";
 
 const Contact = () => {
   return (
@@ -34,9 +34,6 @@ const Contact = () => {
             </p>
           </a>
         </div>
-      </div>
-      <div className="w-full md:w-1/2">
-        <ContactForm />
       </div>
     </div>
   );
