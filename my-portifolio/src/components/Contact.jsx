@@ -13,7 +13,7 @@ const Contact = () => {
         <h3 className="text-xl font-main text-font font-medium">
           Vamos trabalhar juntos ?
         </h3>
-        <p className="text-s font-others mt-3 text-font font-light">
+        <p className="text-s font-secondary mt-3 text-font font-light">
           Sempre estou interessada em fazer parte de novos projetos e
           oportunidades. Se você tiver alguma pergunta ou apenas quiser dar um
           oi, se sinta livre em me chamar
@@ -21,13 +21,13 @@ const Contact = () => {
 
         <div className="mt-15">
           <a href="">
-            <p className="flex mt-4 gap-4 items-center text-font font-main">
+            <p className="flex mt-4 gap-4 items-center text-font font-others">
               {" "}
               <BiLogoGmail className="text-2xl" /> niethilley@gmail.com
             </p>
           </a>
           <a href="">
-            <p className="flex mt-4 gap-4 items-center text-font font-main">
+            <p className="flex mt-4 gap-4 items-center text-font font-others">
               {" "}
               <BiLogoLinkedin className="text-2xl" />
               Niethilley Braz

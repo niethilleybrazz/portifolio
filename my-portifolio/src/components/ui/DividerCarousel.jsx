@@ -6,6 +6,7 @@ import {
   FaJava,
   FaGithub,
   FaFigma,
+  FaDatabase
 } from "react-icons/fa";
 import { SiSpring } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
@@ -16,6 +17,7 @@ const SKILLS = [
   { name: "Node", icon: <FaNodeJs /> },
   { name: "Spring", icon: <SiSpring /> },
   { name: "ReactJs", icon: <FaReact /> },
+  { name: "MySQL | PostgreSQL", icon: <FaDatabase/>},
   { name: "Tailwind", icon: <RiTailwindCssFill /> },
   { name: "Github", icon: <FaGithub /> },
   { name: "Figma", icon: <FaFigma /> },

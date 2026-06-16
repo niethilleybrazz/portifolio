@@ -5,6 +5,8 @@ import Projects from "./components/Projects";
 import DividerCarousel from "./components/ui/DividerCarousel";
 import Contact from "./components/Contact";
 import { BGPattern } from "./components/ui/bg-pattern";
+import Carousel from "./components/Carousel";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -20,7 +22,9 @@ function App() {
       <Hero />
       <Projects />
       <AboutSection/>
+      <Carousel/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }
