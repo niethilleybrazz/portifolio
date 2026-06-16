@@ -10,10 +10,10 @@ const Projects = () => {
     ]
 
   return (
-    <div className='min-h-80 mt-15 mb-30 flex flex-col items-center w-full'>
+    <div className='min-h-80 mt-25 mb-15 flex flex-col items-center w-full'>
         <div className="flex justify-between w-full max-w-[70%] mb-8">
             <h3 className="font-main text-font text-xl font-medium">Alguns projetos</h3>
-            <a href="" className="flex items-center gap-3 text-font font-others">Ver todos <TiArrowForwardOutline className='font-medium'/></a>
+            <a href="https://github.com/niethilleybrazz" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-font font-others">Ver todos <TiArrowForwardOutline className='font-medium'/></a>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-[85%] min-h-[70%] bg-main-bg border-borders">
             {

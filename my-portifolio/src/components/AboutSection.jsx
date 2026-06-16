@@ -3,7 +3,7 @@ import DividerCarousel from "./ui/DividerCarousel";
 
 const AboutSection = () => {
   return (
-    <div className="py-12 px-6 md:px-12 lg:px-24 max-w-330 mx-auto mb-10 mt-30">
+    <div className="py-12 px-6 md:px-12 lg:px-24 max-w-330 mx-auto mb-10 mt-10">
     <div className="flex flex-col md:flex-row items-center gap-10 md:gap-20">
     
     <div className="flex-2">
@@ -12,7 +12,7 @@ const AboutSection = () => {
       </h3>
 
       <p className="mt-3 font-secondary text-font text-s">
-        Eu sou a Niethilley, e desde criança sempre gostei do mundo "tech";
+        Meu nome é Niethilley, e desde criança sempre gostei do mundo "tech";
         aquela criança que sabia tudo sobre jogos e "nerdices", foi pela ideia
         de criar meu próprio jogo que conheci o mundo de desenvolvimento.
       </p>

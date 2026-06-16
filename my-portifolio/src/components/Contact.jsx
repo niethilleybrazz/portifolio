@@ -20,13 +20,13 @@ const Contact = () => {
         </p>
 
         <div className="mt-15">
-          <a href="">
+          <a href="mailto:niethilley@email.com?subject=Contato%20via%20Portfólio" target="_blank" rel="noopener noreferrer">
             <p className="flex mt-4 gap-4 items-center text-font font-others">
               {" "}
               <BiLogoGmail className="text-2xl" /> niethilley@gmail.com
             </p>
           </a>
-          <a href="">
+          <a href="https://www.linkedin.com/in/niethilleybraz/" target="_blank" rel="noopener noreferrer">
             <p className="flex mt-4 gap-4 items-center text-font font-others">
               {" "}
               <BiLogoLinkedin className="text-2xl" />

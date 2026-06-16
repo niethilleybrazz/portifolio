@@ -19,12 +19,20 @@ function App() {
         className="fixed inset-0 pointer-events-none opacity-40"
       />
       <Header />
-      <Hero />
-      <Projects />
-      <AboutSection/>
-      <Carousel/>
-      <Contact/>
-      <Footer/>
+      <section id="home">
+        <Hero />
+      </section>
+      <section id="about">
+        <AboutSection />
+      </section>
+      <section id="projects">
+        <Projects />
+      </section>
+      <Carousel />
+      <section id="contact">
+        <Contact />
+      </section>
+      <Footer />
     </div>
   );
 }
