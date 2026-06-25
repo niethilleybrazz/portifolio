@@ -16,6 +16,16 @@
   --font-secondary: "Outfit";
   --color-gradient: linear-gradient(to right, #934BFF, #0081C7);
   --animate-scroll-carousel: scroll-carousel 20s linear infinite;
+
+  --color-react: #00D8FF;
+  --color-node: #7ED957;
+  --color-express: #6B7280;
+  --color-mongodb: #00C853;
+  --color-python: #2962FF;
+  --color-docker: #0091EA;
+  --color-javascript: #FFD600;
+  --color-java: #FF6D00;
+  --color-tailwind: #00CFE8;
 }
 
 @keyframes fadeIn {
