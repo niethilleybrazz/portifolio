@@ -7,17 +7,36 @@ import Contact from "./components/Contact";
 import { BGPattern } from "./components/ui/bg-pattern";
 import Carousel from "./components/Carousel";
 import Footer from "./components/Footer";
+import ScrollProgress from "./components/ui/ScrollProgress";
+import Lenis from "lenis";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+  const lenis = new Lenis({
+    duration: 1.2,
+    smoothWheel: true,
+  });
+
+  function raf(time) {
+    lenis.raf(time);
+    requestAnimationFrame(raf);
+  }
+
+  requestAnimationFrame(raf);
+
+  return () => lenis.destroy();
+}, []);
   return (
     <div className="padding-body">
       <BGPattern
         variant="dots"
         mask="fade-center"
-        fill="#333333"
+        fill="#3D3D3D"
         size={30}
         className="fixed inset-0 pointer-events-none opacity-40"
       />
+      {/* <ScrollProgress/> */}
       <Header />
       <section id="home">
         <Hero />

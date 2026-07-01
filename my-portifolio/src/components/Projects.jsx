@@ -1,6 +1,8 @@
 import React from "react";
 import { TiArrowForwardOutline } from "react-icons/ti";
 import ProjectCard from "./ui/ProjectCard";
+import { container } from "./animations/variants";
+import { motion } from "motion/react";
 
 const Projects = () => {
   const projectsData = [
@@ -8,7 +10,8 @@ const Projects = () => {
       id: 1,
       category: "E-commerce",
       title: "Loja de Roupas",
-      description: "Lorem ipsum dolor sit amet...",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores quisquam nihil maiores sunt? Laborum vitae repellendus ad debitis saepe id, atque animi consequatur eligendi, ab sint quam unde deleniti qui?",
       image: "url1.jpg",
       stacks: ["React", "JavaScript", "Express", "MongoDB"],
     },
@@ -16,7 +19,8 @@ const Projects = () => {
       id: 2,
       category: "Delivery",
       title: "App Delivery",
-      description: "Lorem ipsum dolor sit amet...",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores quisquam nihil maiores sunt? Laborum vitae repellendus ad debitis saepe id, atque animi consequatur eligendi, ab sint quam unde deleniti qui?",
       image: "url2.jpg",
       stacks: ["React", "Node.js", "Express", "MongoDB"],
     },
@@ -24,14 +28,20 @@ const Projects = () => {
       id: 3,
       category: "Dashboard",
       title: "SaaS Dashboard",
-      description: "Lorem ipsum dolor sit amet...",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores quisquam nihil maiores sunt? Laborum vitae repellendus ad debitis saepe id, atque animi consequatur eligendi, ab sint quam unde deleniti qui?",
       image: "url3.jpg",
       stacks: ["React", "Python", "Docker"],
     },
   ];
 
   return (
-    <div className="min-h-80 mt-25 mb-15 flex flex-col items-center w-full">
+    <motion.div
+      variants={container}
+      initial="hidden"
+      whileInView="visible"
+      className="min-h-80 mt-25 mb-15 flex flex-col items-center w-full"
+    >
       <div className="flex justify-between w-full max-w-[70%] mb-8">
         <h3 className="font-main text-font text-xl font-medium">
           Alguns projetos
@@ -58,7 +68,7 @@ const Projects = () => {
           />
         ))}
       </div>
-    </div>
+    </motion.div>
   );
 };
 
