@@ -3,17 +3,18 @@ import { TiArrowForwardOutline } from "react-icons/ti";
 import ProjectCard from "./ui/ProjectCard";
 import { container } from "./animations/variants";
 import { motion } from "motion/react";
+import spendlyphoto from "../assets/spendly.png"
 
 const Projects = () => {
   const projectsData = [
     {
       id: 1,
-      category: "E-commerce",
-      title: "Loja de Roupas",
+      category: "Gerenciamento de Finanças",
+      title: "Spendly",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores quisquam nihil maiores sunt? Laborum vitae repellendus ad debitis saepe id, atque animi consequatur eligendi, ab sint quam unde deleniti qui?",
-      image: "url1.jpg",
-      stacks: ["React", "JavaScript", "Express", "MongoDB"],
+        "Spendly é um app de gerenciamento de finanças pessoais para controlar receitas e despesas, organizar gastos por categoria e acompanhar o orçamento mensal de forma simples e visual.",
+      image: spendlyphoto,
+      stacks: ["React", "Express", "Tailwind", "MongoDB", "Node.js"],
     },
     {
       id: 2,

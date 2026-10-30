@@ -13,9 +13,9 @@ import { RiTailwindCssFill } from "react-icons/ri";
 
 const SKILLS = [
   { name: "JavaScript", icon: <FaJsSquare /> },
-  { name: "Java", icon: <FaJava /> },
+  // { name: "Java", icon: <FaJava /> },
   { name: "Node", icon: <FaNodeJs /> },
-  { name: "Spring", icon: <SiSpring /> },
+  // { name: "Spring", icon: <SiSpring /> },
   { name: "ReactJs", icon: <FaReact /> },
   { name: "MySQL | PostgreSQL", icon: <FaDatabase/>},
   { name: "Tailwind", icon: <RiTailwindCssFill /> },

@@ -1,4 +1,5 @@
 import photograph from "../assets/photograph.png";
+import foto from "../assets/photograph2.jpg"
 import DividerCarousel from "./ui/DividerCarousel";
 import { fadeUp} from "./animations/variants"; 
 import { motion } from "motion/react";
@@ -34,7 +35,7 @@ const AboutSection = () => {
 
         <div className="hidden md:flex justify-center flex-1">
           <img
-            src={photograph}
+            src={foto}
             alt="Niethilley Braz"
             className="w-80 object-cover organic-shape"
           />

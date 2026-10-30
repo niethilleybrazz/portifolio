@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { motion } from "motion/react";
 
+import { LuArrowUpRight } from "react-icons/lu";
+
 import {
   FaReact,
   FaNodeJs,
@@ -52,7 +54,7 @@ const ProjectCard = ({ image, category, title, description, stacks }) => {
       icon: FaDocker,
       className: "text-sky-400 border-sky-400/30 bg-sky-400/10",
     },
-    "Tailwind CSS": {
+    Tailwind: {
       icon: SiTailwindcss,
       className: "text-cyan-300 border-cyan-300/30 bg-cyan-300/10",
     },
@@ -97,9 +99,14 @@ const ProjectCard = ({ image, category, title, description, stacks }) => {
             {category}
           </span>
 
-          <h3 className="font-main text-font text-lg mt-2">
-            {title}
-          </h3>
+          <div className="flex justify-between items-center">
+            <h3 className="font-main text-font text-lg mt-2">
+              {title}
+            </h3>
+            <p className="text-font text-xl">
+              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><LuArrowUpRight/></a>
+            </p>
+          </div>
         </>
       ) : (
         <>
@@ -107,11 +114,11 @@ const ProjectCard = ({ image, category, title, description, stacks }) => {
             {title}
           </h3>
 
-          <p className="text-xs text-borders font-semibold">
+          <p className="text-xs text-font-secondary font-semibold">
             Tecnologias utilizadas
           </p>
 
-          <p className="text-xs text-font-secondary mt-3 leading-5">
+          <p className="text-xs text-font mt-3 leading-5">
             {description}
           </p>
 
